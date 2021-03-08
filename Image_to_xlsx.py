@@ -1,4 +1,3 @@
-#Filer_Search_The_second 
 import tkinter as tk
 import tkinter.ttk as tkk
 from tkinter import filedialog
