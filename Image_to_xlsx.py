@@ -63,11 +63,10 @@ def fillfunc(colour,img,n,n2,worksheet,workbook):
 def browseFiles():
     label_perc.configure(text='')
     filename = filedialog.askopenfilename(initialdir = "/",
-										title = "Select a File",
-										filetypes = (("Text files",
+										filetypes = (("png files",
 														"*.png*"),
-													("all files",
-                                                          "*.*")))   
+													("jpg files",
+                                                          "*.jpg*")))   
     select_and_do(filename)
     label_perc.configure(text='The conversion is done')
 
